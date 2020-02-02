@@ -4,7 +4,7 @@ addons:
 sonarcloud: 
 organization: "metallord97" 
 token: 
-secure: travis encrypt 7b3f29b3fe4abb93a29f4c118e30d2aa9a3736f7
+secure: 7b3f29b3fe4abb93a29f4c118e30d2aa9a3736f7
 script: 
 - ant build 
 - sonar-scanner
