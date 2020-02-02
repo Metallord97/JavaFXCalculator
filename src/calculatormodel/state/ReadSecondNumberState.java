@@ -3,7 +3,7 @@ package calculatormodel.state;
 import calculatormodel.Calculator;
 import calculatormodel.myexception.DivideByZeroException;
 
-public class ReadSecondNumberState extends AbstractState {
+public class ReadSecondNumberState implements AbstractState {
 
 	@Override
 	public void goNext(Calculator context) {

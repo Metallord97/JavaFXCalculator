@@ -2,7 +2,7 @@ package calculatormodel.state;
 
 import calculatormodel.Calculator;
 
-public class ReadFirstNumberState extends AbstractState {
+public class ReadFirstNumberState implements AbstractState {
 
 	@Override
 	public void goNext(Calculator context) {

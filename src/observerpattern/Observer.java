@@ -1,6 +1,6 @@
 package observerpattern;
 
-public abstract class Observer {
+public interface Observer {
 	
 	public abstract void update();
 

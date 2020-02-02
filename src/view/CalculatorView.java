@@ -17,7 +17,7 @@ import view.buttons.NumberButton;
 import view.buttons.OperationButton;
 import view.mainlabel.CalculatorLabel;
 
-public class CalculatorView extends Observer {
+public class CalculatorView implements Observer {
 	
 	private CalculatorLabel calculatorLabel;
 	
