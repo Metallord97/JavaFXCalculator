@@ -5,7 +5,7 @@ addons:
   sonarcloud:
     organization: "metallord97"
     token:
-      secure: "travis encrypt d34324b07f0b12b34dcd6b206f1abba3fc74b586" # encrypted value of your token
+      secure: "travis encrypt 0169c513ec187f41ecf9062a799015528f60743c" # encrypted value of your token
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
