@@ -1,10 +1,5 @@
-language: java jdk: 
+language: java 
+jdk:
 - openjdk8
-addons: 
-sonarcloud: 
-organization: "metallord97" 
-token: 
-secure: cbd38affb1d1f8daea29d03357517aea9b408753
-script: 
-- ant build 
-- sonar-scanner
+script:
+- ant build
